@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/fkitty/myui-test-01/issues"
   },
-  "homepage": "https://github.com/fkitty/myui-test-01#readme"
+  "homepage": "https://github.com/fkitty/myui-test-01#readme",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
 }
