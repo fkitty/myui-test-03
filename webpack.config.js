@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist/lib'),
     library: 'taq-ui',
-    libraryTarget: 'umd',
+    libraryTarget: 'umd', // umd 兼容 commonjs amd
   },
   module: {
     rules: [
