@@ -1,5 +1,7 @@
-console.log('hi5');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const div = document.createElement('div');
-div.innerText='div';
-document.body.appendChild(div);
+import Button from './button';
+
+console.log(Button, 'button======');
+ReactDOM.render(<Button></Button>, document.body)
