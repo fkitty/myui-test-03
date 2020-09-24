@@ -9,6 +9,6 @@ import Icon from './icon';
 
 ReactDOM.render(
   <div>
-    <Icon name="wechart"></Icon>
+    <Icon name="wechart" />
   </div>
 , document.body);
