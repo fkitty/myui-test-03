@@ -14,7 +14,8 @@ interface IconProps {
  * 3、<IconProps>：属性类型（声明的interface）
  */
 const Icon: React.FunctionComponent<IconProps> = (props) =>{ // 使用props
-  console.log(typeof props); // Object  IconProps外加一个children
+  console.log(typeof props);
+  console.log(props); // Object  IconProps外加一个children
   return(
     <span>{props.name}</span>
   )
